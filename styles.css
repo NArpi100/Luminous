@@ -1,0 +1,80 @@
+body{
+  background-color: #ff4c17;
+}
+.wish1{
+  padding: 3% 15%;
+}
+ button{
+   margin:5% 6% 0% 8%;
+   border-radius: 25%;
+   width:25%;
+   height:25%;
+   background-color:#fff;
+ }
+ i{
+   color:green;
+ }
+ .wish1{
+   font-family:Montserrat;
+ }
+ #hd{
+   font-weight: bold;
+   font-style: italic;
+   color:#ff4c17;
+ }
+ #cake{
+   color:maroon;
+ }
+ p{
+   font-style: italic;
+   font-weight: bold;
+   font-family:"Merriweather";
+
+
+ }
+
+ .wish1{
+   background-color: powderblue;
+   color:#fff;
+ }
+
+ .ice{
+   position:relative;
+   left:47%;
+
+
+
+ }
+ #author{
+   color:pink;
+   font-family:"Serif";
+
+ }
+ h2{
+   color:green;
+ }
+.Magic{
+  text-align: center;
+  background-color:black;
+  font-weight: bold;
+  line-height: 15px;
+  color:purple;
+  font-family: "Merriweather";
+  padding:10% 3%;
+}
+.Cakes{
+  border-radius: 50%;
+  height: 317px;
+
+}
+#my_story{
+  font-family:"Montserrat";
+}
+
+#footer{
+   text-align: center;
+   color:grey;
+   font-size:75%;
+   padding: 15% 0%;
+   font-family:Montserrat;
+ }
