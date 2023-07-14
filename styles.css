@@ -2,24 +2,82 @@ body{
   background-color: #ff4c17;
 }
 .wish1{
-  padding: 3% 15%;
+  padding: 5% 0%;
 }
- button{
-   margin:5% 6% 0% 8%;
-   border-radius: 25%;
-   width:25%;
+ .button{
+   margin:5% 6% 17% 17%;
+   border-radius: 35%;
+   width:45%;
    height:25%;
    background-color:#fff;
  }
  i{
    color:green;
  }
-video{
-  border-radius:50%;
-}
-
  .wish1{
-   font-family:Montserrat;
+   font-family:"Montserrat";
+ }
+ #nutritions{
+   padding:3% 2%;
+   height: 250px;
+   width:217px;
+
+   position:relative;
+
+
+   border-radius:75%;
+
+ }
+ .brave{
+   color:#ff4c17;
+ }
+ .nature{
+   padding:3% 4%;
+ }
+ p{
+   padding:4% 4%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .feature-box{
+   text-align: center;
+ }
+ h3{
+   font-family: "Montserrat-bold";
+   color: pink;
+   font-size:1.2rem;
+   font-weight:bold;
+ }
+
+ #flower{
+   padding:7% 10%;
+   margin: 5% 4% 5% 0%;
+   position:absolute;
+   z-index:-1;
+   transform:rotate(25deg);
+     width: 60%;
+     right:55%;
+ }
+ #flower2{
+   padding:7% 10%;
+   margin: 5% 4% 5% 0%;
+   position:absolute;
+   z-index:-1;
+   transform:rotate(25deg);
+     width: 60%;
+     right:55%;
+ }
+ h6{
+   padding:5% 10%;
  }
  #hd{
    font-weight: bold;
@@ -40,6 +98,7 @@ video{
  .wish1{
    background-color: powderblue;
    color:#fff;
+   padding:8% 25%;
  }
 
  .ice{
@@ -49,6 +108,32 @@ video{
 
 
  }
+
+ h2:hover{
+   color:red;
+ }
+
+
+
+ video{
+   border-radius:50%;
+ }
+
+ .Download-button{
+   margin: 5% 4% 5% 0%;
+ }
+ .giphy-embed{
+   position:relative;
+   left:140%;
+   height:400px;
+   width:280px;
+   border-radius:36%;
+   padding-bottom:30%;
+
+
+ }
+
+
  #author{
    color:pink;
    font-family:"Serif";
@@ -77,8 +162,37 @@ video{
 
 #footer{
    text-align: center;
-   color:grey;
+   color:lightgrey;
    font-size:75%;
-   padding: 15% 0%;
-   font-family:Montserrat;
+   padding: 30% 0%;
+   font-family:"Montserrat";
+   font-weight: lighter;
  }
+ #footer{
+
+   padding: 5% 3%;
+ }
+ .testimonial-image{
+
+   border-radius: 100%;
+   width:30%;
+   padding:8% 5%;
+   margin:15px;
+
+ }
+ #testimonials{
+   padding:7% 14%;
+   text-align: center;
+   background-color:#ff4c17;
+   color:#fff;
+ }
+
+
+ #footer:hover{
+    color:lightblue;
+
+ }
+ 
+ 
+
+   
