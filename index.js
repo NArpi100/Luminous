@@ -14,3 +14,6 @@ $(document).keypress(function(event){
   $("h4").text(event.key);
 
 });
+$("button").css("background-color","#ffdb58");
+$("button").css("color","#fff");
+
