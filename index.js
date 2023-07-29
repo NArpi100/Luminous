@@ -1,6 +1,6 @@
-//alert("HELLO!!!");
-//alert("Navin");
-//alert("Happy Birthday🤩");
+alert("HELLO!!!");
+alert("Navin");
+alert("Happy Birthday");
 
 
 $("h4").css("color","powderblue");
