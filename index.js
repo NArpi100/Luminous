@@ -6,7 +6,7 @@
 $("h4").css("color","powderblue");
 $("h1").css("color","#ff4c17");
 //$("p").css("color","#ff4c17");
-$("h2").css("color","green");
+$("h2").css("color","#900c3f");
 $("h1").click(function(){
   $("i").css("color","yellow");
 });
