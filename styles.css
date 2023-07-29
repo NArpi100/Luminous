@@ -76,9 +76,9 @@ h5{
    margin: 5% 4% 5% 0%;
    position:absolute;
    z-index:-1;
-   transform:rotate(25deg);
+   transform:rotate(35deg);
      width: 60%;
-     right:55%;
+     left:55%;
  }
  h6{
    padding:5% 10%;
@@ -114,7 +114,7 @@ h5{
  }
 
  h2:hover{
-   color:red;
+   color:yellow;
  }
 
 
@@ -143,9 +143,7 @@ h5{
    font-family:"Serif";
 
  }
- h2{
-   color:#900c3f;
- }
+
 .Magic{
   text-align: center;
   background-color:black;
