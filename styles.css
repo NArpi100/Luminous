@@ -17,6 +17,10 @@ body{
  .wish1{
    font-family:"Montserrat";
  }
+h5{
+  padding:8% 5%;
+}
+  
  #nutritions{
    padding:3% 2%;
    height: 250px;
