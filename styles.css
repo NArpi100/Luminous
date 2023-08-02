@@ -143,6 +143,9 @@ h5{
    font-family:"Serif";
 
  }
+#author:hover{
+  color:#1674a0;
+}
 
 .Magic{
   text-align: center;
@@ -165,7 +168,7 @@ h5{
 #footer{
    text-align: center;
    color:lightgrey;
-   font-size:75%;
+   font-size:65%;
    padding: 30% 0%;
    font-family:"Montserrat";
    font-weight: lighter;
@@ -191,7 +194,7 @@ h5{
 
 
  #footer:hover{
-    color:lightblue;
+    color:#e74c3c;
 
  }
  
