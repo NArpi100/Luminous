@@ -46,9 +46,13 @@ h5{
 #eminent{
 
   border-radius: 100%;
-   width:30%;
-   padding:8% 5%;
+   
+   padding:8% 10%;
    margin:15px;
+}
+.teacher{
+  padding:4% 6%;
+
 }
 
 
