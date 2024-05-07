@@ -14,35 +14,6 @@ body{
  }
 
 
-@media(max-width:600px){
-.year{
-    width: 100%;
-    display: block;
-    margin-bottom: 30px;
-    text-align: justify;
-}
-.relax{
-    width: 100%;
-    display: block;
-    margin-bottom: 30px;
-    text-align: justify;
-}
-#vid{
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
-}
-feature-box{
-    width: 100%;
-    display: block;
-    margin-bottom: 30px;
-    text-align: justify;
-  }
-  .logo{
-    font-size: 1rem;
-    text-align: center;
-}
 
 
 i{
