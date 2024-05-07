@@ -22,12 +22,7 @@ body{
     margin-bottom: 30px;
     text-align: justify;
 }
-  img{
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
-  }
+  
 h3{
   color:#ff4c17;
   
