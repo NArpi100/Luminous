@@ -1,5 +1,10 @@
 body{
   background-color: #ff4c17;
+  margin: 50px 50px 0 50px;
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
 }
 .wish1{
   padding: 5% 0%;
