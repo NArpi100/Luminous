@@ -9,25 +9,6 @@ body{
 .wish1{
   padding: 5% 0%;
 }
-.main {
-  flex: 1;
-}
-
-
-@media(max-width:680px){
-  p{
-    width: 100%;
-    display: block;
-    color:#ff4c17;
-    margin-bottom: 30px;
-    text-align: justify;
-}
-  
-h3{
-  color:#ff4c17;
-  
-}
-}
 
 
  .button{
