@@ -9,8 +9,8 @@ body{
 }
 @media(max-width:691px){
   body{
-   display:cover;
-    width:50%;
+   display:block;
+    
    
     
   
