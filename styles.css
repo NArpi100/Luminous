@@ -9,7 +9,7 @@ body{
 }
 @media(max-width:691px){
   body{
-   display:grid;
+   display:inline;
    grid-row: 500px;
     
   
