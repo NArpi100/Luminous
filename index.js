@@ -6,7 +6,7 @@ alert("Happy Birthday");
 $("h4").css("color","powderblue");
 $("h1").css("color","#fff");
 $("p").css("color","#008080");
-$("h2").css("color","gold");
+$("h2").css("color","#dc143c");
 $("h1").click(function(){
   $("i").css("color","pink");
 });
