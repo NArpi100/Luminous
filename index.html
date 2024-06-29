@@ -178,8 +178,8 @@
   <div class="text"><p class="navy" style="font-size:14px;background-color:gold;"> Sometimes I am green or sometimes I am yellow having green texture. That's why I am Natural.I provide you refreshment when you're soooo thirsty.Sometimes Nutritionist says that I have all best qualities to be the king among the fruits.Because if you take me on everyday basis then I will surely protect you from the all complex obstacles which effects on your health or your heart!!!But I don't wanna show of, just wanna work silently because I Love You selflessly!..if other fruits are getting popularity than me, it won't effect on my mind...it can't make me sad because I don't expect anything from anyone.Just you be happy and healthy, It will make me happy.Whatever color of my juice definately it will make your day Rejoiceful and full of Goodness.Sending my yellow Love💛...Bye Bye...</p></div>
 </div>
 
-<a class="prev" onclick="plusSlides(-1)"><</a>
-<a class="next" onclick="plusSlides(1)">></a>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
 
 </div>
 <br>
@@ -189,38 +189,8 @@
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
+  </section>
 
-script>
-  let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", " ");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-
-    </script>
-   </section> 
  <br>
   <br>
   <br>
@@ -536,6 +506,37 @@ action="https://youtu.be/EMUOv1dQOi4?si=_SGqP3pgFZ6Z4vtE">
     <br>
     <hr>
     </div>
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", " ");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+    </script>
+   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="index.js" charset="utf-8" ></script>
     
