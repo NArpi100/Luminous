@@ -221,8 +221,17 @@ h5{
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: block;}
-img {vertical-align: middle;}
+.mySlides 
+
+
+{
+  display: none;
+
+}
+img {
+  
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
