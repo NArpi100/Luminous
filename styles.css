@@ -298,7 +298,7 @@ img {vertical-align: middle;}
 
 /* Fading animation */
 .fade {
-  animation-name: slide;
+  animation-name: fade;
   animation-duration: 10s;
 }
 
