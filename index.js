@@ -1,6 +1,5 @@
 alert("HELLO!!!");
-alert("Navin");
-alert("Happy Birthday");
+prompt("Are you Navin?);
 
 
 $("h4").css("color","powderblue");
