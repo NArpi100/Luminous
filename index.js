@@ -13,7 +13,7 @@ $(document).keypress(function(event){
   $("h4").text(event.key);
 
 });
-$("button").css("background-color","#008080");
+$("button").css("background-color","#aaff00");
 $("button").css("color","#fff");
 
 
