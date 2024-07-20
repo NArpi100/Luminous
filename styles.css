@@ -7,9 +7,6 @@ body{
 .wish1{
   padding: 5% 0%;
 }
-.card1{
- background-color:#e6e6fa;
-  }
 
 #card2{
 position:relative;
@@ -18,7 +15,13 @@ background-color:#ff4c17;
 
 
 }
+#card3{
+position:relative;
 
+background-color:lavenderblush;  
+
+
+}
 
 
 
@@ -29,8 +32,8 @@ background-color:#ff4c17;
    
   }
    #card2{
-position:relative;
-right:117%;
+  position:relative;
+  right:117%;
   
 
 
