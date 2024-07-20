@@ -7,14 +7,13 @@ body{
 .wish1{
   padding: 5% 0%;
 }
-.card-body{
-position:relative;
- 
-  background-color:#fff0f5;
+.card{
+ background-color:lavenderblush;
+  
 
 
 }
-.card-card2{
+#card2{
 position:relative;
   left:117%;
   
