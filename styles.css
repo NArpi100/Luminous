@@ -8,6 +8,15 @@ body{
   padding: 5% 0%;
 }
 
+.btn:hover{
+
+  color:#e4d00a;               
+}
+
+
+
+
+
 #card2{
 position:relative;
 left:117%;
