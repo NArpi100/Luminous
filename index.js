@@ -13,15 +13,6 @@ $(document).keypress(function(event){
   $("h4").text(event.key);
 
 });
-$("button").css("background-color","#aaff00");
-$("button").css("color","#fff");
 
-const button = document.querySelector('button');
-
-// Add a mouseover event listener
-button.addEventListener('mouseover', () => {
-  // Change the button's background color
-  button.style.backgroundColor = 'e4d00a';
-});
 
 
