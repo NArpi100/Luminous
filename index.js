@@ -1,4 +1,4 @@
-alert("HELLO!!!");
+alert("HELLO");
 alert("Navin 💖");
 
 
