@@ -9,11 +9,9 @@ body{
 }
 @media screen and (max-width: 767px) {
   body {
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    height: auto;
-    padding: 4rem 1rem 1rem;
+   display:block;
+   margin:auto;
+   
   }
   
 }
