@@ -84,16 +84,7 @@ left:0%;
 }
 
 
- button{
-   margin:5% 6% 17% 17%;
-   border-radius: 35%;
-   width:45%;
-   height:25%;
-   background-color:#aaff00;
-   padding:4% 5%;
-   color:yellow;
- }
-
+ 
 
 
 
@@ -210,9 +201,7 @@ h5{
    border-radius:50%;
  }
 
- .Download-button{
-   margin: 5% 4% 5% 0%;
- }
+
  .giphy-embed{
    position:relative;
    left:90%;
@@ -322,7 +311,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 20%;
   border-radius: 3px 0 0 3px;
 }
 
