@@ -42,12 +42,30 @@ background-color:lavenderblush;
   }
    #card2{
   position:relative;
-  right:117%;
+  left:0%;
   
 
 
 }
+#eminent{
 
+  border-radius: 50%;
+   width:417px;
+   height:317px;
+   padding:8% 6%;
+   
+}
+ #flower{
+  left:0%;
+ }
+#flower2{
+left:0%;
+}
+  .giphy-embed{
+    
+ left:6%;
+     
+   }
 }
 
 
@@ -123,7 +141,7 @@ h5{
    padding:7% 10%;
    margin: 5% 4% 5% 0%;
    position:absolute;
-   z-index:-1;
+   z-index:+1;
    transform:rotate(25deg);
      width: 60%;
      right:55%;
@@ -182,11 +200,11 @@ h5{
  }
  .giphy-embed{
    position:relative;
-   left:140%;
+   left:90%;
    height:400px;
    width:280px;
    border-radius:36%;
-   padding-bottom:30%;
+   padding-bottom:20%;
 
 
  }
@@ -338,7 +356,7 @@ img {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 10s;
+  animation-duration: 20s;
 }
 
 @keyframes fade {
