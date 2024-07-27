@@ -10,5 +10,9 @@ $("h1").click(function(){
   $("i").css("color","#f5ba13");
 });
 
+$(document).keypress(function(event){
+  $("h4").text(event.key);
+
+});
 
 
