@@ -1,5 +1,5 @@
 body{
-  background-image: url(pink_flowers.jpg);
+  
   background-repeat: no-repeat;
  line-height:1.8;
   font-family: Arial, sans-serif;
@@ -50,22 +50,35 @@ background-color:lavenderblush;
 #eminent{
 
   border-radius: 50%;
-   width:417px;
-   height:317px;
-   padding:8% 6%;
+   width:300px;
+   height:200px;
+   padding:6% 2%;
    
 }
  #flower{
-  left:0%;
+  right:0%;
  }
 #flower2{
 left:0%;
 }
-  .giphy-embed{
+.giphy-embed{
     
- left:6%;
+ left:0%;
      
    }
+.wish1{
+   background-color: powderblue;
+   color:pink;
+   padding:8% 10%;
+ }
+ .ice{
+   position:relative;
+   left:0%;
+
+
+
+ }
+  
 }
 
 
@@ -141,9 +154,9 @@ h5{
    padding:7% 10%;
    margin: 5% 4% 5% 0%;
    position:absolute;
-   z-index:+1;
-   transform:rotate(25deg);
-     width: 60%;
+   z-index:-1;
+   transform:rotate(35deg);
+     width: 75%;
      right:55%;
  }
  #flower2{
