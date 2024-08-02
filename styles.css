@@ -1,7 +1,7 @@
-#myPage{
+body{
   
   background-repeat: no-repeat;
- line-height:2.0;
+   line-height:2.0;
   font-family: Arial, sans-serif;
 }
 .wish1{
@@ -14,7 +14,7 @@ button:hover{
 }
 
 
- .navbar {
+ .navbar-fixed-top {
     margin-bottom: 0;
     background-color:#ff4c17;
     z-index: 9999;
