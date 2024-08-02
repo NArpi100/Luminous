@@ -16,7 +16,7 @@ button:hover{
 
  .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #ff4c17;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -76,7 +76,7 @@ button:hover{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: black;
   min-width: 117px;
   overflow: auto;
   border: 3 px solid red;
@@ -84,7 +84,7 @@ button:hover{
 }
 
 .dropdown-content a {
-  color: black;
+  color:black ;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
