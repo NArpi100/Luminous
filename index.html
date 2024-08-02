@@ -38,15 +38,71 @@
 
 
 </head>
-  <body>
+  
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand " href="#myPage" ><span style="color:yellow;">Bloomy <i class="fa-solid fa-leaf" style="color:green;"></i></span></a>
+
+
+        
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home"> <i class="fa-solid fa-house fa-lg" style="color: #FFD43B;"></i> </a></li>
+        <li><a href="#cake"> <i class="fa-solid fa-cake-candles fa-lg" style="color: pink;"></i></a></li>
+        <li><a href="#food"><i class="fa-solid fa-utensils fa-lg" style="color: #FFD43B;"></i> </a></li>
+      
+       <li><a href="#lyrics"><i class="fa-solid fa-music fa-spin fa-spin-reverse fa-lg" style="color: #FFD43B;"></i> </a></li>
+        <li><a href="#travel"><i class="fa-solid fa-plane fa-spin fa-spin-reverse fa-lg" style="color: #74C0FC;"></i></a></li>
+        
+        
+
+ <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"> <i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i>   Dropdown </button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#">About</a>
+    <a href="#cake">Cake</a>
+    <a href="#food">Food Zone</a>
+    <a href="#lyrics">Songs</a>
+    <a href="#travel">Travel</a>
+  
+    <a href="#navin">Navin</a>
+  </div>
+</div>
+
+
+ 
+
+
+
+
+
+ 
+     
     
-    
-    <marquee style="background-color:#16a085 ;color:white;"> 🌼🌼🌼03-08-2023🌻🌻🌻</marquee>
+     </ul>
+   
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <marquee style="background-color:#f5ba13;color:white;"> 💗💗03-08-2024🌻🌻</marquee>
     <div class="container-fluid">
 
-    <h1>Be Bloomy<i class="fa-solid fa-leaf"></i></h1>
-  </div>  
-    <div class="wish1">
+    
+    <div id="home" class="wish1">
     <h2>Wow Navin Today Is Your Birthday<i id = "cake" class="fa-solid fa-cake-candles fa-lg fa-bounce"></i></h2>
     <h5> Happy Birthday Navin. I published this website through Github,
       specially to wish you happy birthday <i class="fa-solid fa-cake-slice"></i>. This is one of my web development projects<i class="fa-solid fa-code fa-beat-fade"></i>.The reason behind making this website is how to wish someone birthday in a very surprisingly.</h5>
@@ -54,7 +110,7 @@
 
 
     </div>
-  </div>
+  
     <div class="Magic">
     <h4> Click on the  green leaf which is besides of Be Bloomy and type anything on your laptop keyboard and see the Magic </h4>
   </div>
@@ -68,7 +124,7 @@
 
   
     
-<div class="container-fluid text-center">
+<div id="cake" class="container-fluid text-center">
    <div class="row"> 
    <div class="col-sm-4">
   <div id="card3"  class="card">
@@ -133,7 +189,7 @@
     
     <h3 class="text-primary" style="color:green;">Visit my delicious and nutritious food zone,which will make your tongue water.Sorry I can give them to you virtually only but if I were in front of you I would try to give them at least a little bit. It will be started from tea  with pokora after that your favourite paneer with paratha.But in the end sweet dish is must so I've kept Suji ka Halwa aur icecream bhi hai<i class="fa-solid fa-face-smile-wink fa-bounce"></i><i class="fa-solid fa-face-smile-wink fa-bounce"></i><i class="fa-solid fa-face-smile-wink fa-bounce"></i><i class="fa-solid fa-face-smile-wink fa-bounce"></i></h3>
   </div>
-   <div class="container-fluid text-center">
+   <div id="food" class="container-fluid text-center">
     <div class="row">
       
    <div class="col-sm-4">
@@ -318,7 +374,7 @@
       <div class="row">
           <div class="col-sm-6">
    <h3 style="color:grey;font-weight:bold;font-family:"Montserrat";">Let's move on to the entertainment zone...</h3>
-    <h6 style="color:purple;">I've few selected songs that will surely fill your mood with joy.Actually these songs really help me when I'm upset or sad or hopeless and encourage me to get back to living a wonderful life.It says you're strong enough to ace the game of life.Just keep hope in your mind and faith in your heart.</h6>
+    <h6 id="lyrics" style="color:purple;">I've few selected songs that will surely fill your mood with joy.Actually these songs really help me when I'm upset or sad or hopeless and encourage me to get back to living a wonderful life.It says you're strong enough to ace the game of life.Just keep hope in your mind and faith in your heart.</h6>
     </div>
     <div class="col-sm-4">
     <form action="https://youtu.be/EwZIBLjcX3A">
@@ -414,7 +470,7 @@ action="https://youtu.be/EMUOv1dQOi4?si=_SGqP3pgFZ6Z4vtE">
 <hr>
       <section>
 <div class="container-fluid text-center">
-         <div style="background-color:#fff0f5;" class="row">
+         <div id="travel" style="background-color:#fff0f5;" class="row">
            <div class="col-sm-6">
              <h3  id="nature" style=" padding:3% 3% ;color:#228b22;">As I know you're a nature lover. I've an amazing place to show you.This is Switzerland!!! Sometimes I see this video, it feels like I am in heaven where nature gave has done its best to show its extraordinary beauty and it gives a sweet peace. Feels like I'm traveling there!!! Enjoy this wonderful video and make your day delightful.</h4>
        </div>
@@ -440,16 +496,12 @@ action="https://youtu.be/EMUOv1dQOi4?si=_SGqP3pgFZ6Z4vtE">
 <div class="container-fluid text-center">
                    <div style="background-color:#fff0f5;" class="row">
                      <div class="col-sm-6">
-                       <h5 style="color:#008080;"> Look at this boy, he is so strong and brave!  By giving some blood after taking an injection.  While this was happening, I told a friend of mine that if you feel a little pain, then look at me and smile.  This boy felt little pain while taking this injection.  Yesss he gave this sweet smile.  so what does that mean???  It means whatever situation comes your way, accept it, put on your sweet smile and pretend that you are strong enough to fight them.  But situations come and go, but it's totally up to you.  As an example when the airplane takes off, the energy is provided by the engines, where Chemical energy is being converted into Mechanical energy.  It provides thrust to increase the speed of the airplane to take off.  So to fly you have to change in different aspects but your aim should be right.  So be strong like this boy and move ahead with a lovely smile...   </h5>
+                       <h5 id="navin"  style="color:#008080;"> Look at this boy, he is so strong and brave!  By giving some blood after taking an injection.  While this was happening, I told a friend of mine that if you feel a little pain, then look at me and smile.  This boy felt little pain while taking this injection.  Yesss he gave this sweet smile.  so what does that mean???  It means whatever situation comes your way, accept it, put on your sweet smile and pretend that you are strong enough to fight them.  But situations come and go, but it's totally up to you.  As an example when the airplane takes off, the energy is provided by the engines, where Chemical energy is being converted into Mechanical energy.  It provides thrust to increase the speed of the airplane to take off.  So to fly you have to change in different aspects but your aim should be right.  So be strong like this boy and move ahead with a lovely smile...   </h5>
                  </div>
                      <div class="col-sm-4">
-
-                        <iframe width="400" height="250" src="Navin is Genius 😅.mp4" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-
-                        </div>
+          <img src="" alt="navin"  width=200px height=200px>
+                        
+  </div>
                  </div>
 
 </div>
@@ -671,7 +723,38 @@ function showSlides(n) {
 }
 
 
-    </script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  const input = document.getElementById("myInput");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+  
+
+    
    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="index.js" charset="utf-8" ></script>
